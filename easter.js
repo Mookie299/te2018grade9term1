@@ -42,4 +42,4 @@ let p = h = r - 7 * m + 114 % 31
  console.log(m);
  console.log(n);
  console.log(p);
- console.log(y);
+ 
