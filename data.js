@@ -1,7 +1,7 @@
 // Example
-let message = 10*10 ==100000000
-
+let message "i SOLVE RUBICKS CUBES"
 
 console.log(message);
 
-// Type your code below!
+let string =true;
+console.log
