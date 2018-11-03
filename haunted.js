@@ -17,7 +17,7 @@ player.name = READLINE.question("What is your name?: ");
 console.log(`${player.name} stands in front of a spooky haunted house.`);
 console.log(`${player.name} hears what sounds like screaming coming from inside the house.`);
 let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
-if(enterHouse == "y" || enterHouse == "yes") {
+if(enterHouse == "y" || enterHouse == "n") {
   player.courage++;
   console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
   // continue the story
@@ -25,7 +25,12 @@ if(enterHouse == "y" || enterHouse == "yes") {
 } else {
   player.intellect++;
   console.log(`${player.name} decides not to open the door. However...`);
-  // continue the story
+  console.log(`${player.name} A man comes out of the house running towards you.`);
+    let run =  READLINE.question("What do you want to do? (run or hide)");
+    player.courage++;
+    if(run = true);
+      console.log(`${player.name} decides to run from man.`);
+
 
 }
 console.log("Thanks for playing!");
