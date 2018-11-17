@@ -2,6 +2,12 @@ const READLINE = require("readline-sync");
 
 // **** Problem 1: printMessage() ****
 // Write a function that prints any message you want.
+let printmessage {
+	 message: "Moo",
+	console.log(`${this.message}!`);
+
+}
+	
 
 
 // **** Problem 2: printFiveMessages() ****
