@@ -59,7 +59,7 @@ function deFront(str) {
   let firstLet = str.charAt(0)
   let secondLet = str.charAt(1)
   if(firstLet == 'a' && secondLet == 'b'){
-    return sub.string(1,3)
+    return sub.string(1,3)//figure this out later
   }
 }
 
