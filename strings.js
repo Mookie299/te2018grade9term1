@@ -11,11 +11,13 @@ withoutEnd("coding") → "odin"
 
 function withoutEnd(str) {
 
+  let newStr = str.substring(1, str.length-1)
+
+    return newStr; 
 }
 
 // Remove comment below to test this function.
-//testWithoutEnd();
-
+testWithoutEnd();
 /******************************************************************************
                                    frontAgain()
 Instructions:
@@ -27,14 +29,20 @@ frontAgain("edit") → false
 frontAgain("ed") → true
 *******************************************************************************/
 
-
 function frontAgain(str) {
-
+  let firstLet = str.charAt(0)
+  let secondLet = str.charAt(1)
+  let lastLet = str.charAt(str.length-1)
+  let secLast = str.charAt(str.length-2)
+  if(firstLet == secLast && secondLet == lastLet){
+return true;
 }
-
+  else{
+  return false;
+}
+}
 // Test this function.
-//testFrontAgain();
-
+testFrontAgain();
 /******************************************************************************
                                    deFront()
 Instructions:
@@ -48,12 +56,15 @@ deFront("away") → "aay"
 *******************************************************************************/
 
 function deFront(str) {
-
+  let firstLet = str.charAt(0)
+  let secondLet = str.charAt(1)
+  if(firstLet == 'a' && secondLet == 'b'){
+    return sub.string(1,3)
+  }
 }
 
 // Test this function.
-//testDeFront();
-
+testDeFront();
 /******************************************************************************
                                    without2()
 Instructions:
