@@ -9,7 +9,8 @@ let user = {
   cityBorn: undefined,
   dreamCar: undefined,
   street: undefined,
-  fantasyName: undefined
+  fantasyName: undefined,
+ 
 };
 
 // fantasy name generator object

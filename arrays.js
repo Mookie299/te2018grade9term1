@@ -10,12 +10,17 @@ firstLast6([13, 6, 1, 2, 3]) → false
 *******************************************************************************/
 
 function firstLast6(nums) {
+  if(nums[0] == 6 || nums[nums.length-1] == 6){
+    return true
+  }
+  else{
+    return false
+  }
 
 }
 
 // Remove comment below to test this function.
-//testFirstLast6();
-
+testFirstLast6();
 /******************************************************************************
                                    midThree()
 Instructions:
@@ -28,12 +33,16 @@ midThree([1, 2, 3]) → [1, 2, 3]
 *******************************************************************************/
 
 function midThree(nums) {
-
+  let middle = (nums.length/2) - 0.5
+  let num2 = []
+  num2.push(nums[middle - 1])
+  num2.push(nums[middle])
+  num2.push(nums[middle + 1])
+return num2
 }
 
 // Remove comment below to test this function.
-//testMidThree();
-
+testMidThree();
 /******************************************************************************
                                    fizzBuzz()
 Instructions:
@@ -56,11 +65,11 @@ fizzBuzz(1, 11) → ["1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "B
 
 function fizzBuzz(start, end) {
 
+
 }
 
 // Remove comment below to test this function.
 //testFizzBuzz();
-
 /******************************************************************************
                                    copyEvens()
 Instructions:
@@ -74,12 +83,16 @@ copyEvens([6, 1, 2, 4, 5, 8], 3) → [6, 2, 4]
 *******************************************************************************/
 
 function copyEvens(nums, count) {
+ for (i = 0; i<nums.length ; i = +2 ){}
+ 
+
+ return nums2
+
 
 }
 
 // Remove comment below to test this function.
-//testCopyEvens();
-
+testCopyEvens();
 /******************************************************************************
                                    zeroMax()
 Instructions:

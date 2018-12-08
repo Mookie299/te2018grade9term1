@@ -8,14 +8,12 @@ withoutEnd("Hello") → "ell"
 withoutEnd("java") → "av"
 withoutEnd("coding") → "odin"
 *******************************************************************************/
-
 function withoutEnd(str) {
 
   let newStr = str.substring(1, str.length-1)
 
     return newStr; 
 }
-
 // Remove comment below to test this function.
 testWithoutEnd();
 /******************************************************************************
@@ -28,7 +26,6 @@ frontAgain("edited") → true
 frontAgain("edit") → false
 frontAgain("ed") → true
 *******************************************************************************/
-
 function frontAgain(str) {
   let firstLet = str.charAt(0)
   let secondLet = str.charAt(1)
@@ -54,7 +51,6 @@ deFront("Hello") → "llo"
 deFront("java") → "va"
 deFront("away") → "aay"
 *******************************************************************************/
-
 function deFront(str) {
   let firstLet = str.charAt(0)
   let secondLet = str.charAt(1)
@@ -62,7 +58,6 @@ function deFront(str) {
     return sub.string(1,3)//figure this out later
   }
 }
-
 // Test this function.
 testDeFront();
 /******************************************************************************
@@ -77,14 +72,13 @@ without2("HelloHe") → "lloHe"
 without2("HelloHi") → "HelloHi"
 without2("Hi") → ""
 *******************************************************************************/
-
 function without2(str) {
 
 }
 
 // Test this function.
 //testWithout2();
-
+testWithout2();
 /******************************************************************************
                                    withoutX2()
 Instructions:
@@ -96,14 +90,13 @@ withoutX2("xHi") → "Hi"
 withoutX2("Hxi") → "Hi"
 withoutX2("Hi") → "Hi"
 *******************************************************************************/
-
 function withoutX2(str) {
 
 }
 
 // Test this function.
 //testWithoutX2();
-
+testWithoutX2();
 /****************************************************************************
                                     Tests
 *****************************************************************************/

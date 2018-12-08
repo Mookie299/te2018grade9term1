@@ -10,12 +10,16 @@ stringTimes("Hi", 1) → "Hi"
 *******************************************************************************/
 
 function stringTimes(str, n) {
+  let str2 = "Hi"
+  for(let i = 1; i <= n;i++){
+    str2 += str 
 
+  }
+  return str2
 }
 
 // Remove comment below to test this function.
-//testStringTimes();
-
+testStringTimes();
 /******************************************************************************
                                    countXX()
 Instructions:
@@ -27,13 +31,20 @@ countXX("xxx") → 2
 countXX("xxxx") → 3
 *******************************************************************************/
 
-function countXX(str) {
+function countXX(str){
+  let xxcount = 0
+  for(let x = 0; x < str.length;x++){
+   if(str[x]== "x" && str[x+1] == "x"){
+    //add to xcount ++
+    xxcount++
 
+   }
+
+  } 
+return xxcount
 }
-
 // Remove comment below to test this function.
-//testCountXX();
-
+testCountXX();
 /******************************************************************************
                                    bobThere()
 Instructions:
@@ -46,12 +57,12 @@ bobThere("bac") → false
 *******************************************************************************/
 
 function bobThere(str) {
+  let bobThere = ""
 
 }
 
 // Remove comment below to test this function.
-//testBobThere();
-
+testBobThere();
 /******************************************************************************
                                    countCode()
 Instructions:
